@@ -1,0 +1,12 @@
+{
+  "connection_string": "https://www.rsginc.com:5050",
+  "tables":
+    [{
+      "name": "my_table",
+      "columns":
+        [
+          {"name": "field1", "dtype": "string", "primary_key": true},
+          {"name": "field2", "dtype": "integer", "description": "something"}
+        ]
+      }]
+}
